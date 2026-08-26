@@ -1,126 +1,177 @@
-FinOps AI
-AI-Powered Financial Operations & Cost Intelligence Platform
+# 💰 FinOps AI
 
-Turn financial data into intelligent decisions with AI.
+### AI-Powered Financial Operations & Cost Intelligence Platform
 
-FinOps AI is an AI-powered financial operations platform designed to help businesses understand their financial data, identify unnecessary spending, detect anomalies, forecast expenses, and receive actionable recommendations.
+> **Turn financial data into intelligent decisions with AI.**
 
-Instead of manually analyzing large amounts of financial and transaction data, FinOps AI uses AI, analytics, and automation to provide organizations with a centralized view of their financial health.
+FinOps AI is an AI-powered financial operations platform designed to help businesses monitor financial activity, analyze payments and expenses, detect anomalies, investigate suspicious activity, manage disputes and refunds, reconcile transactions, and generate actionable financial insights.
 
-🚨 Problem Statement
+Instead of manually analyzing large amounts of financial and transaction data, FinOps AI provides a centralized platform for financial monitoring, analytics, automation, and AI-powered investigation.
 
-Modern businesses generate huge amounts of financial data from:
+---
 
-Transactions
-Invoices
-Subscriptions
-Cloud spending
-Operational expenses
-Vendor payments
-Budgets
+## 🚨 Problem Statement
 
-However, organizations often struggle to answer important questions:
+Modern businesses handle large volumes of:
 
-Where is our money being spent?
-Which expenses are unnecessary?
-Are there unusual transactions?
-Are we going to exceed our budget?
-Which subscriptions or vendors are costing us too much?
-How can we reduce operational costs?
-What financial actions should we take?
+* 💳 Payments
+* 💰 Transactions
+* 🔄 Refunds
+* ⚡ Settlements
+* 📑 Reconciliation records
+* 🧾 Orders
+* ⚠️ Disputes
+* 🔔 Webhook events
+* 💼 Financial operations
 
-Traditional financial dashboards mainly show data.
+As transaction volumes increase, finance and operations teams face several challenges:
 
-They don't necessarily explain what the data means or what action should be taken.
+* Where is the money going?
+* Which transactions are unusual?
+* Why did a payment fail?
+* Why does a settlement not match?
+* Which refunds require attention?
+* Are there suspicious financial activities?
+* What caused a financial anomaly?
+* Which transactions need investigation?
+* How can financial operations be optimized?
 
-💡 Our Solution
+Traditional dashboards mainly show **what happened**.
 
-FinOps AI combines financial analytics with AI-powered intelligence.
+FinOps AI aims to go further by helping answer:
 
-The platform:
+> **What happened, why did it happen, and what should we do next?**
 
+---
+
+# 💡 Our Solution
+
+FinOps AI combines:
+
+**Financial Data + Analytics + Automation + AI Investigation**
+
+into a unified financial operations platform.
+
+### Core Flow
+
+```text
 Financial Data
       ↓
-Data Processing
+Data Collection
       ↓
-Analytics & Detection
+Processing & Validation
       ↓
-AI Analysis
+Financial Analytics
+      ↓
+Anomaly Detection
+      ↓
+AI Investigation
       ↓
 Insights & Recommendations
       ↓
-Financial Decisions
+Financial Action
+```
 
-It transforms raw financial data into:
+The platform transforms raw financial activity into actionable intelligence.
 
-Cost insights
-Spending analysis
-Anomaly alerts
-Budget predictions
-AI recommendations
-Financial reports
-✨ Core Features
-📊 1. Financial Dashboard
+---
 
-A centralized dashboard provides an overview of the organization's financial health.
+# ✨ Core Features
 
-It displays:
+## 📊 1. Financial Dashboard
 
-Total spending
-Revenue
-Expenses
-Budget utilization
-Cash flow
-Spending trends
-Category-wise expenses
-🤖 2. AI Financial Assistant
+The dashboard provides a centralized view of financial operations.
 
-Users can interact with their financial data using natural language.
+It can be used to monitor:
 
-Example:
+* Payment activity
+* Transaction trends
+* Revenue
+* Refunds
+* Settlements
+* Financial anomalies
+* Reconciliation status
+* Disputes
+* Operational metrics
 
-"Why did our expenses increase this month?"
+---
 
-The AI analyzes the available financial data and provides an explanation.
+## 💳 2. Payment Management
 
-Users can also ask:
+FinOps AI provides APIs and services for managing payment-related financial data.
 
-"Which category has the highest spending?"
+The platform supports workflows around:
 
-"Show me unusual expenses."
+* Payments
+* Orders
+* Customers
+* Payment status
+* Payment provider interactions
+* Transaction tracking
 
-"How much can we save next month?"
+This creates a unified source of financial information for analysis.
 
-"Are we likely to exceed our budget?"
+---
 
-This makes financial analysis accessible without requiring users to manually query databases or analyze spreadsheets.
+## 🔄 3. Refund Management
 
-🔍 3. Expense Analysis
+Refund operations can be monitored and analyzed through dedicated refund APIs and services.
 
-FinOps AI categorizes and analyzes expenses.
+The system maintains refund-related financial information and makes it available for financial analysis and operational workflows.
 
-Example:
+---
 
-Cloud Services       ₹1,20,000
-SaaS Subscriptions   ₹75,000
-Infrastructure       ₹90,000
-Marketing            ₹60,000
-Operations           ₹45,000
+## 💰 4. Settlement Management
 
-The system identifies spending patterns and highlights areas where costs can potentially be optimized.
+Settlement data is an important part of financial operations.
 
-🚨 4. Anomaly Detection
+FinOps AI provides settlement management functionality to help track:
+
+* Settlement records
+* Settlement status
+* Settlement amounts
+* Financial movement
+* Settlement-related discrepancies
+
+---
+
+## 🔁 5. Automated Reconciliation
+
+Reconciliation helps identify differences between financial records.
+
+The platform provides reconciliation services that can compare financial information and identify records that require attention.
+
+### Reconciliation Flow
+
+```text
+Transaction Data
+      ↓
+Settlement Data
+      ↓
+Record Matching
+      ↓
+Difference Detection
+      ↓
+Reconciliation Result
+      ↓
+Investigation / Action
+```
+
+---
+
+## 🚨 6. Anomaly Detection
 
 FinOps AI identifies unusual financial activity.
 
 For example:
 
-⚠ Anomaly Detected
+```text
+⚠️ Financial Anomaly Detected
 
 Category:
 Cloud Infrastructure
 
-Normal Monthly Spending:
+Expected Spending:
 ₹80,000
 
 Current Spending:
@@ -129,276 +180,225 @@ Current Spending:
 Increase:
 77.5%
 
-This allows organizations to investigate unexpected spending before it becomes a larger problem.
+Status:
+Requires Investigation
+```
 
-📈 5. Budget Forecasting
+Anomalies can then be investigated using the AI-powered investigation layer.
 
-The platform analyzes historical spending patterns to estimate future expenses.
+---
 
-Example:
+# 🤖 7. AI Financial Investigator
 
-Current Budget       ₹10,00,000
-Current Usage        ₹7,80,000
+One of the core capabilities of FinOps AI is its AI-powered investigation system.
 
-Predicted Month-End:
-₹11,20,000
+Instead of simply showing an anomaly, the system can investigate the underlying financial data.
 
-⚠ Estimated Budget Overrun:
-₹1,20,000
+### Investigation Flow
 
-This gives finance teams an opportunity to take corrective action before exceeding their budget.
+```text
+Anomaly Detected
+       ↓
+AI Investigator
+       ↓
+Financial Tools
+       ↓
+Transaction / Payment / Refund / Settlement Data
+       ↓
+Analysis
+       ↓
+Investigation Result
+       ↓
+Recommended Action
+```
 
-💰 6. Cost Optimization Recommendations
+The AI investigation layer is designed to help answer questions such as:
 
-FinOps AI doesn't just identify expensive areas.
+* Why did this anomaly occur?
+* Which transactions caused the issue?
+* Is this activity unusual?
+* What financial records are related?
+* What action should be taken?
 
-It provides actionable recommendations.
+---
 
-Example:
+# 🧠 8. Financial AI Tools
 
-💡 Recommendation
+FinOps AI provides financial tools that allow the AI layer to interact with financial information.
 
-SaaS subscriptions increased by 32%.
+These tools can be used for tasks such as:
 
-Potential action:
-Review unused licenses.
+* Searching financial records
+* Investigating transactions
+* Analyzing payment information
+* Examining refunds
+* Reviewing settlements
+* Supporting reconciliation investigations
+* Understanding anomalies
 
-Estimated monthly saving:
-₹25,000
+This enables the AI system to reason using actual financial data instead of relying only on static responses.
 
-The goal is to move from:
+---
 
-Data → Information
+# ⚠️ 9. Dispute Management
 
-to:
+Financial disputes can require investigation across multiple financial records.
 
-Data → Intelligence → Action
-🔐 7. Financial Security & Monitoring
+FinOps AI provides dedicated dispute management functionality to help track and manage dispute-related information.
 
-The platform can monitor financial activity and highlight potentially suspicious or unusual transactions.
+---
 
-Important financial events can be surfaced through alerts so that users can investigate them quickly.
+# 🔔 10. Webhook Processing
 
-📑 8. AI-Generated Financial Reports
+Financial systems frequently receive events from external services.
 
-FinOps AI can convert financial analytics into human-readable reports.
+FinOps AI includes webhook processing and logging capabilities.
 
-Instead of manually analyzing charts, users can receive summaries such as:
+### Webhook Flow
 
-Financial Summary
+```text
+External Payment Event
+        ↓
+Webhook API
+        ↓
+Webhook Validation
+        ↓
+Webhook Service
+        ↓
+Event Processing
+        ↓
+Financial Data Update
+        ↓
+Analytics / Investigation
+```
 
-Expenses increased by 14% compared
-to the previous month.
+Webhook logs can also help with troubleshooting and financial event tracking.
 
-Cloud infrastructure contributed
-the highest increase.
+---
 
-Three unusual spending patterns
-were detected.
+# 🔐 11. Authentication & Authorization
 
-Recommended action:
-Review cloud resource utilization
-and unused SaaS licenses.
-🧠 AI-Powered Insights
+The platform includes authentication middleware and dedicated authentication APIs.
 
-FinOps AI combines multiple sources of intelligence:
+This allows protected financial operations to be accessed through authenticated requests.
 
-Historical Data
-      +
-Transaction Data
-      +
-Expense Data
-      +
-Budget Data
-      ↓
-   AI Analysis
-      ↓
-Financial Intelligence
+Security is especially important because financial applications handle sensitive transaction and operational data.
 
-The AI layer can be used for:
+---
 
-Natural-language financial queries
-Financial summaries
-Anomaly explanations
-Cost optimization suggestions
-Forecast interpretation
-Report generation
-🏗️ System Architecture
-                         ┌──────────────────────┐
-                         │      User            │
-                         └──────────┬───────────┘
+# 📈 12. Financial Analytics
+
+FinOps AI brings together multiple financial data sources for analysis.
+
+```text
+Payments
+    +
+Orders
+    +
+Refunds
+    +
+Settlements
+    +
+Disputes
+    +
+Reconciliation
+    +
+Financial Anomalies
+          ↓
+    Financial Analytics
+          ↓
+      AI Analysis
+          ↓
+ Financial Intelligence
+```
+
+---
+
+# 📑 13. AI-Powered Financial Insights
+
+The AI layer can help transform financial records into human-readable insights.
+
+For example:
+
+```text
+Financial Insight
+
+Several transactions show unusual activity
+compared with normal financial patterns.
+
+The affected transactions should be reviewed
+along with their corresponding payment,
+refund, and settlement records.
+
+Recommended Action:
+
+Investigate the related transactions and
+verify the associated financial events.
+```
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                         ┌─────────────────────┐
+                         │        User         │
+                         └──────────┬──────────┘
                                     │
                                     ▼
-                         ┌──────────────────────┐
-                         │   React Frontend     │
-                         │      Dashboard       │
-                         └──────────┬───────────┘
+                         ┌─────────────────────┐
+                         │   React Frontend    │
+                         │      Dashboard      │
+                         └──────────┬──────────┘
                                     │
                                     ▼
-                         ┌──────────────────────┐
-                         │   Backend / API      │
-                         │    Spring Boot       │
-                         └──────────┬───────────┘
+                         ┌─────────────────────┐
+                         │   Backend / API     │
+                         │  Node.js +          │
+                         │  TypeScript         │
+                         └──────────┬──────────┘
                                     │
-                 ┌──────────────────┼──────────────────┐
-                 │                  │                  │
-                 ▼                  ▼                  ▼
-        ┌────────────────┐ ┌────────────────┐ ┌────────────────┐
-        │ Financial      │ │ Anomaly        │ │ Forecasting    │
-        │ Analytics      │ │ Detection      │ │ Engine         │
-        └────────┬───────┘ └────────┬───────┘ └────────┬───────┘
-                 │                  │                  │
-                 └──────────────────┼──────────────────┘
-                                    ▼
-                         ┌──────────────────────┐
-                         │      AI Engine       │
-                         │   LLM / AI Models    │
-                         └──────────┬───────────┘
+             ┌──────────────────────┼──────────────────────┐
+             │                      │                      │
+             ▼                      ▼                      ▼
+      ┌─────────────┐        ┌─────────────┐        ┌─────────────┐
+      │  Payments   │        │  Anomalies  │        │ Reconcile   │
+      │  & Orders   │        │ Detection   │        │   &         │
+      │             │        │             │        │ Settlements │
+      └──────┬──────┘        └──────┬──────┘        └──────┬──────┘
+             │                      │                      │
+             └──────────────────────┼──────────────────────┘
                                     │
                                     ▼
-                         ┌──────────────────────┐
-                         │ Financial Insights   │
-                         │ & Recommendations    │
-                         └──────────┬───────────┘
+                         ┌─────────────────────┐
+                         │   AI Investigator   │
+                         │                     │
+                         │ Financial Tools     │
+                         │ + AI Analysis       │
+                         └──────────┬──────────┘
                                     │
                                     ▼
-                         ┌──────────────────────┐
-                         │       Database       │
-                         └──────────────────────┘
-🛠️ Tech Stack
-Frontend
-React
-TypeScript
-Vite
-Tailwind CSS
-Charting libraries
-Backend
-Java
-Spring Boot
-Spring Web / REST APIs
-Database
-MySQL
-AI / Machine Learning
-Python
-LLM APIs
-AI-powered financial analysis
-Anomaly detection
-Forecasting
-Development & Deployment
-Git
-GitHub
-Docker
-REST APIs
-📂 Project Structure
-FinOpsAI/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── charts/
-│   │   └── App.tsx
-│   │
-│   └── package.json
-│
-├── backend/
-│   ├── src/
-│   │   └── main/
-│   │       ├── java/
-│   │       │   └── ...
-│   │       └── resources/
-│   │
-│   └── pom.xml
-│
-├── ai/
-│   ├── models/
-│   ├── services/
-│   ├── analytics/
-│   └── requirements.txt
-│
-├── docker-compose.yml
-├── .env.example
-└── README.md
-🚀 Getting Started
-Prerequisites
+                         ┌─────────────────────┐
+                         │ Financial Insights  │
+                         │ & Recommendations   │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │      Database       │
+                         └─────────────────────┘
+```
 
-Make sure you have installed:
+---
 
-Java 17+
-Node.js
-npm
-Python 3.10+
-MySQL
-Git
-Docker (optional)
-1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/FinOpsAI.git
-
-cd FinOpsAI
-2. Start the Backend
-cd backend
-
-./mvnw spring-boot:run
-
-On Windows:
-
-mvnw.cmd spring-boot:run
-3. Start the Frontend
-cd frontend
-
-npm install
-npm run dev
-
-The frontend will be available at:
-
-http://localhost:5173
-4. Start the AI Service
-cd ai
-
-python -m venv .venv
-Windows
-.venv\Scripts\activate
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the AI service:
-
-python app.py
-🔐 Environment Variables
-
-Create a .env file and configure the required credentials.
-
-Example:
-
-DATABASE_URL=your_database_url
-
-DATABASE_USERNAME=your_username
-
-DATABASE_PASSWORD=your_password
-
-AI_API_KEY=your_api_key
-
-AI_BASE_URL=your_ai_provider_url
-
-Never commit API keys or passwords to GitHub.
-
-Use:
-
-.env
-
-and add it to:
-
-.gitignore
-🔄 Application Flow
+# 🔄 Application Flow
 
 The main FinOps AI workflow is:
 
+```text
 User
  ↓
-Login
+Authentication
  ↓
 Dashboard
  ↓
@@ -406,151 +406,432 @@ Financial Data
  ↓
 Backend APIs
  ↓
-Analytics Engine
+Financial Services
  ↓
-AI Analysis
+Analytics / Anomaly Detection
+ ↓
+AI Investigation
  ↓
 Insights
  ↓
-Recommendations
+Recommendation
  ↓
 User Action
+```
 
-For example:
+### Example
 
-User:
-"Why did our cloud spending increase?"
+**User:**
 
-        ↓
+> "Why is this transaction marked as anomalous?"
 
-Backend retrieves financial data
+```text
+User Question
+      ↓
+Backend API
+      ↓
+AI Investigator
+      ↓
+Financial Tools
+      ↓
+Transaction Data
+      ↓
+Related Payment / Refund / Settlement Data
+      ↓
+AI Analysis
+      ↓
+Investigation Result
+```
 
-        ↓
+The AI can then provide a human-readable explanation based on the available financial records.
 
-Analytics engine calculates trends
+---
 
-        ↓
+# 🧩 Backend Architecture
 
-AI analyzes the results
+The backend follows a modular architecture.
 
-        ↓
+```text
+server/
+│
+├── src/
+│   │
+│   ├── agents/
+│   │   └── investigatorAgent.ts
+│   │
+│   ├── config/
+│   │   ├── db.ts
+│   │   └── env.ts
+│   │
+│   ├── controllers/
+│   │   ├── agentController.ts
+│   │   ├── anomaliesController.ts
+│   │   ├── authController.ts
+│   │   ├── dashboardController.ts
+│   │   ├── disputesController.ts
+│   │   ├── paymentsController.ts
+│   │   ├── reconciliationController.ts
+│   │   ├── refundsController.ts
+│   │   ├── settlementsController.ts
+│   │   └── webhookController.ts
+│   │
+│   ├── middleware/
+│   │   └── auth.ts
+│   │
+│   ├── models/
+│   │   ├── AgentAction.ts
+│   │   ├── AgentInvestigation.ts
+│   │   ├── Customer.ts
+│   │   ├── Dispute.ts
+│   │   ├── FinancialAnomaly.ts
+│   │   ├── Merchant.ts
+│   │   ├── Order.ts
+│   │   ├── Payment.ts
+│   │   ├── ReconciliationRecord.ts
+│   │   ├── Refund.ts
+│   │   ├── Settlement.ts
+│   │   └── WebhookLog.ts
+│   │
+│   ├── routes/
+│   │   ├── agentRoutes.ts
+│   │   ├── anomaliesRoutes.ts
+│   │   ├── authRoutes.ts
+│   │   ├── dashboardRoutes.ts
+│   │   ├── disputesRoutes.ts
+│   │   ├── paymentsRoutes.ts
+│   │   ├── reconciliationRoutes.ts
+│   │   ├── refundsRoutes.ts
+│   │   ├── settlementsRoutes.ts
+│   │   └── webhookRoutes.ts
+│   │
+│   ├── services/
+│   │   ├── financialService.ts
+│   │   ├── paymentProvider.ts
+│   │   ├── reconciliationService.ts
+│   │   └── webhookService.ts
+│   │
+│   ├── seed/
+│   │   └── seed.ts
+│   │
+│   ├── tools/
+│   │   └── financialTools.ts
+│   │
+│   ├── tests/
+│   │   ├── api.test.ts
+│   │   ├── financial.test.ts
+│   │   └── webhook.test.ts
+│   │
+│   ├── types/
+│   │   └── index.ts
+│   │
+│   ├── app.ts
+│   └── server.ts
+│
+├── package.json
+├── package-lock.json
+└── tsconfig.json
+```
 
-FinOps AI:
+---
 
-"Cloud spending increased by 28%
-primarily because of increased
-compute resource usage."
+# 🛠️ Tech Stack
 
-        ↓
+## Frontend
 
-Recommendation:
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Charting libraries
 
-"Review unused compute instances
-and optimize resource allocation."
-📊 Example Dashboard
+## Backend
 
-The dashboard provides visual insights into:
+* Node.js
+* TypeScript
+* REST APIs
+* Authentication Middleware
+* Modular Controller / Service Architecture
 
-┌───────────────────────────────────────────────┐
-│                FINOPS AI                      │
-├───────────────┬───────────────┬───────────────┤
-│ Total Spend   │ Budget Usage  │ Savings       │
-│ ₹12.4L        │ 78%           │ ₹1.8L         │
-├───────────────┴───────────────┴───────────────┤
-│                                               │
-│             Spending Trend                    │
-│                                               │
-│     ╱╲                                        │
-│    ╱  ╲    ╱╲                                │
-│ ──╯    ╲──╯  ╲────                           │
-│                                               │
-├───────────────────────────┬───────────────────┤
-│ Expense Categories        │ AI Insights       │
-│                           │                   │
-│ Cloud       ███████       │ ⚠ Anomaly         │
-│ SaaS        █████         │ 💡 Save ₹25K      │
-│ Infra       ██████        │ 📈 Budget Alert   │
-└───────────────────────────┴───────────────────┘
-🎯 Target Users
+## Database
+
+* MongoDB
+
+## AI
+
+* AI-powered financial investigation
+* AI financial tools
+* Financial anomaly investigation
+* Intelligent financial insights
+
+## Development & Deployment
+
+* Git
+* GitHub
+* npm
+* Docker
+
+---
+
+# 📂 Project Structure
+
+```text
+FinOpsAI/
+│
+├── frontend/
+│
+├── server/
+│   ├── src/
+│   ├── package.json
+│   ├── package-lock.json
+│   └── tsconfig.json
+│
+├── .gitignore
+└── README.md
+```
+
+> `node_modules` and environment files are intentionally excluded from the repository.
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+Make sure you have installed:
+
+* Node.js
+* npm
+* MongoDB
+* Git
+* Docker (optional)
+
+---
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/Rohithkumar-fsd/FinOpsAI.git
+```
+
+```bash
+cd FinOpsAI
+```
+
+---
+
+## 2. Install Backend Dependencies
+
+```bash
+cd server
+npm install
+```
+
+---
+
+## 3. Configure Environment Variables
+
+Create a `.env` file inside the `server` directory.
+
+Example:
+
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+AI_API_KEY=your_ai_api_key
+```
+
+Use the environment variables required by your local configuration.
+
+> ⚠️ Never commit API keys, passwords, JWT secrets, or other credentials to GitHub.
+
+---
+
+## 4. Start the Backend
+
+```bash
+npm run dev
+```
+
+The backend will start using the configured server port.
+
+---
+
+## 5. Start the Frontend
+
+Open another terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend will normally be available at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+# 🧪 Testing
+
+FinOps AI includes backend tests covering API, financial, and webhook functionality.
+
+Run the test suite using the configured npm test command:
+
+```bash
+npm test
+```
+
+---
+
+# 🔐 Security
+
+Financial applications require strong security practices.
+
+FinOps AI follows several important practices:
+
+* Environment variables for secrets
+* Authentication middleware
+* Protected API routes
+* No credentials committed to Git
+* Webhook processing and logging
+* Financial event tracking
+
+### Never commit:
+
+```text
+.env
+API keys
+Passwords
+JWT secrets
+node_modules/
+Large binary files
+```
+
+---
+
+# 📊 Example Financial Dashboard
+
+```text
+┌────────────────────────────────────────────────────────┐
+│                    FINOPS AI                            │
+├──────────────────┬──────────────────┬──────────────────┤
+│ Total Payments   │   Refunds        │   Anomalies      │
+│ ₹12.4L           │   ₹1.2L          │   8              │
+├──────────────────┴──────────────────┴──────────────────┤
+│                                                        │
+│              Financial Activity Trend                  │
+│                                                        │
+│        ╱╲                                              │
+│       ╱  ╲       ╱╲                                    │
+│  ────╯    ╲─────╯  ╲────                              │
+│                                                        │
+├────────────────────────────┬───────────────────────────┤
+│ Financial Operations       │ AI Insights               │
+│                            │                           │
+│ Payments      ✓            │ ⚠ Anomaly detected       │
+│ Refunds       ✓            │ 💡 Investigation needed  │
+│ Settlements   ✓            │ 📈 Financial insight     │
+│ Reconciliation ✓           │                           │
+└────────────────────────────┴───────────────────────────┘
+```
+
+---
+
+# 🎯 Target Users
 
 FinOps AI can help:
 
-💼 Businesses
+### 💼 Businesses
 
-Understand and optimize operational expenses.
+Monitor and understand financial operations.
 
-💰 Finance Teams
+### 💰 Finance Teams
 
-Monitor budgets and detect unusual spending.
+Track payments, settlements, refunds, disputes, and reconciliation.
 
-☁️ Cloud Teams
+### 🚀 Startups
 
-Analyze infrastructure and cloud costs.
+Gain better visibility into financial activity as transaction volume grows.
 
-🚀 Startups
+### 👨‍💼 Business Leaders
 
-Identify unnecessary expenses and improve financial efficiency.
+Receive AI-powered insights to support faster financial decisions.
 
-👨‍💼 Business Leaders
+---
 
-Get AI-powered insights for faster financial decisions.
+# 🌟 Why FinOps AI?
 
-🌟 Why FinOps AI?
+Traditional financial systems often focus on:
 
-Traditional financial dashboards answer:
+```text
+DATA
+ ↓
+DASHBOARD
+ ↓
+HUMAN ANALYSIS
+ ↓
+ACTION
+```
 
-"What happened?"
+FinOps AI aims to enhance this workflow:
 
-FinOps AI aims to answer:
+```text
+DATA
+ ↓
+ANALYSIS
+ ↓
+ANOMALY DETECTION
+ ↓
+AI INVESTIGATION
+ ↓
+INSIGHT
+ ↓
+RECOMMENDATION
+ ↓
+ACTION
+```
 
-"What happened, why did it happen, what will happen next, and what should we do?"
+### The core idea:
 
-That is the core difference.
+> **Don't just show financial data. Understand it, investigate it, and help users decide what to do next.**
 
-             Traditional Dashboard
+---
 
-                   DATA
-                    ↓
-                 CHARTS
-                    ↓
-               HUMAN ANALYSIS
+# 🔮 Future Roadmap
 
+## Phase 1 — Intelligence
 
-                    VS
+* Advanced anomaly detection
+* Improved financial analytics
+* More AI-powered investigations
+* Enhanced financial insights
 
+## Phase 2 — Automation
 
-                  FinOps AI
+* Automated financial alerts
+* Automated reconciliation workflows
+* Smart investigation workflows
+* Automated reporting
 
-                    DATA
-                     ↓
-                  ANALYSIS
-                     ↓
-                  AI INSIGHT
-                     ↓
-                 PREDICTION
-                     ↓
-              RECOMMENDATION
-                     ↓
-                  ACTION
-🔮 Future Roadmap
-Phase 1 — Intelligence
-Advanced anomaly detection
-Improved financial forecasting
-More AI-powered insights
-Phase 2 — Automation
-Automated cost optimization
-Smart alerts
-Subscription optimization
-Automated reporting
-Phase 3 — Enterprise
-Multi-organization support
-Role-based access control
-Advanced financial governance
-Audit trails
-Phase 4 — Autonomous FinOps
+## Phase 3 — Enterprise
+
+* Multi-organization support
+* Role-based access control
+* Advanced financial governance
+* Audit trails
+
+## Phase 4 — Autonomous FinOps
+
+```text
 Detect
   ↓
 Analyze
+  ↓
+Investigate
   ↓
 Recommend
   ↓
@@ -558,25 +839,52 @@ Approve
   ↓
 Automate
   ↓
-Verify Savings
-🏆 Hackathon Vision
+Verify
+```
+
+---
+
+# 🏆 Hackathon Vision
 
 FinOps AI is built around a simple idea:
 
-Financial data should not just tell businesses what happened. It should help them decide what to do next.
+> **Financial data should not just tell businesses what happened. It should help them understand why it happened and decide what to do next.**
 
-Our vision is to build an intelligent financial operations layer that helps organizations:
+Our vision is to create an intelligent financial operations layer that helps organizations:
 
-Understand → Predict → Optimize → Act
+```text
+Understand
+    ↓
+Analyze
+    ↓
+Detect
+    ↓
+Investigate
+    ↓
+Optimize
+    ↓
+Act
+```
 
-👥 Team
+---
+
+# 👥 Team
 
 Built with ❤️ for the hackathon.
 
-Project: FinOps AI
-Category: AI / FinTech / Financial Operations
+**Project:** FinOps AI
+**Category:** AI / FinTech / Financial Operations
 
+---
 
+## 📜 License
 
+This project is developed for educational, experimental, and hackathon purposes.
 
-**Important:** I kept this README aligned with the FinOps AI architecture we've discussed rather than adding random features. Bef
+---
+
+## ⭐ Support
+
+If you find this project interesting, consider giving the repository a ⭐ on GitHub.
+
+**GitHub:** https://github.com/Rohithkumar-fsd/FinOpsAI
