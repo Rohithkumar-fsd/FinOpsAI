@@ -1,0 +1,23 @@
+{
+  "name": "finops-ai-root",
+  "version": "1.0.0",
+  "description": "FinOps AI - Your AI Financial Investigator",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm run dev",
+    "server": "cd server && npm run start",
+    "client": "cd client && npm run start",
+    "build": "cd server && npm run build && cd ../client && npm run build",
+    "seed": "cd server && npm run seed",
+    "test": "cd server && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "mongoose": "^9.9.3"
+  }
+}
